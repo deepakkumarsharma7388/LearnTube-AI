@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables - NEVER upload secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
